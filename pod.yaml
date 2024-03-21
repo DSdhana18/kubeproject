@@ -29,7 +29,3 @@ spec:
         - name: hello
           image: dhiv123/kubeproject1:latest
           imagePullPolicy: Always
-          ports:
-             port: 80
-             targetPort: 80
-             nodePort: 30000
